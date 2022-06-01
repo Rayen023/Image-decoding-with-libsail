@@ -1,0 +1,1517 @@
+13:39:45 **** Incremental Build of configuration Debug for project Fx_uSD_File_Edit ****
+make -j12 all 
+arm-none-eabi-gcc "../Middlewares/sail/codec.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/codec.d" -MT"Middlewares/sail/codec.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/codec.o"
+arm-none-eabi-gcc "../Middlewares/sail/codec_info.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/codec_info.d" -MT"Middlewares/sail/codec_info.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/codec_info.o"
+arm-none-eabi-gcc "../Middlewares/sail/codec_info_private.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/codec_info_private.d" -MT"Middlewares/sail/codec_info_private.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/codec_info_private.o"
+arm-none-eabi-gcc "../Middlewares/sail/context_private.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/context_private.d" -MT"Middlewares/sail/context_private.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/context_private.o"
+arm-none-eabi-gcc "../Middlewares/sail/sail_advanced.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/sail_advanced.d" -MT"Middlewares/sail/sail_advanced.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/sail_advanced.o"
+arm-none-eabi-gcc "../Middlewares/sail/sail_junior.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/sail_junior.d" -MT"Middlewares/sail/sail_junior.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/sail_junior.o"
+arm-none-eabi-gcc "../Middlewares/sail/sail_private.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/sail_private.d" -MT"Middlewares/sail/sail_private.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/sail_private.o"
+arm-none-eabi-gcc "../Middlewares/sail/sail_technical_diver.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/sail_technical_diver.d" -MT"Middlewares/sail/sail_technical_diver.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/sail_technical_diver.o"
+arm-none-eabi-gcc "../Middlewares/sail/sail_technical_diver_private.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/sail_technical_diver_private.d" -MT"Middlewares/sail/sail_technical_diver_private.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/sail_technical_diver_private.o"
+arm-none-eabi-gcc "../Middlewares/sail/threading.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/sail/threading.d" -MT"Middlewares/sail/threading.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/sail/threading.o"
+arm-none-eabi-gcc "C:/Users/Admin/Desktop/PPP/ppp-insat-libsail/Middlewares/ST/threadx/common/src/tx_mutex_initialize.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/ThreadX/RTOS/ThreadX/Core/tx_mutex_initialize.d" -MT"Middlewares/ThreadX/RTOS/ThreadX/Core/tx_mutex_initialize.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/ThreadX/RTOS/ThreadX/Core/tx_mutex_initialize.o"
+arm-none-eabi-gcc "C:/Users/Admin/Desktop/PPP/ppp-insat-libsail/Middlewares/ST/threadx/common/src/tx_mutex_prioritize.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSAIL_BUILD -DTX_INCLUDE_USER_DEFINE_FILE -DFX_INCLUDE_USER_DEFINE_FILE -DUSE_HAL_DRIVER -DSTM32F469xx -c -I../../Core/Inc -I../../AZURE_RTOS/App -I../../FileX/App -I../../FileX/Target -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../../../../../../Drivers/CMSIS/Include -I../../../../../../../Middlewares/ST/filex/common/inc/ -I../../../../../../../Middlewares/ST/filex/ports/generic/inc/ -I../../../../../../../Middlewares/ST/threadx/common/inc/ -I../../../../../../../Middlewares/ST/threadx/ports/cortex_m4/gnu/inc/ -I../../../../../../../Middlewares/sail/src/libsail -I../../../../../../../Middlewares/sail/src/libsail-common -I../../../../../../../Middlewares -I../../../../../../../Drivers/BSP/STM32469I-Discovery -I../../../../../../../Middlewares/ST/filex/common/inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/ThreadX/RTOS/ThreadX/Core/tx_mutex_prioritize.d" -MT"Middlewares/ThreadX/RTOS/ThreadX/Core/tx_mutex_prioritize.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/ThreadX/RTOS/ThreadX/Core/tx_mutex_prioritize.o"
+../Middlewares/sail/codec.c: In function 'alloc_codec':
+../Middlewares/sail/codec.c:56:15: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   56 |     (*codec)->v6     = NULL;
+      |               ^~
+      |               v7
+../Middlewares/sail/codec.c: In function 'load_combined_codec':
+../Middlewares/sail/codec.c:67:46: error: array type has incomplete element type 'struct sail_codec_layout_v6'
+   67 |     extern struct sail_codec_layout_v6 const sail_enabled_codecs_layouts[];
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:74:21: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   74 |             *codec->v6 = sail_enabled_codecs_layouts[i];
+      |                     ^~
+      |                     v7
+../Middlewares/sail/codec.c:67:46: warning: unused variable 'sail_enabled_codecs_layouts' [-Wunused-variable]
+   67 |     extern struct sail_codec_layout_v6 const sail_enabled_codecs_layouts[];
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c: In function 'load_codec_from_file':
+../Middlewares/sail/codec.c:94:41: warning: passing argument 1 of '_fxe_file_read' from incompatible pointer type [-Wincompatible-pointer-types]
+   94 |     void *handle=fx_file_read(codec_info->path);
+      |                               ~~~~~~~~~~^~~~~~
+      |                                         |
+      |                                         char * const
+In file included from ../Middlewares/sail/codec.c:34:
+../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:1545:28: note: expected 'FX_FILE *' {aka 'struct FX_FILE_STRUCT *'} but argument is of type 'char * const'
+ 1545 | UINT fx_file_read(FX_FILE *file_ptr, VOID *buffer_ptr, ULONG request_size, ULONG *actual_size);
+      |                   ~~~~~~~~~^~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/codec_info_private.c:30:
+../Middlewares/sail/codec_info_private.c: In function 'parse_serialized_ints':
+../Middlewares/sail/codec_info_private.c:55:25: warning: implicit declaration of function 'split_into_string_node_chain'; did you mean 'sail_split_into_string_node_chain'? [-Wimplicit-function-declaration]
+   55 |     SAIL_TRY_OR_CLEANUP(split_into_string_node_chain(value, &string_node),
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:55:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   55 |     SAIL_TRY_OR_CLEANUP(split_into_string_node_chain(value, &string_node),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info.c: In function 'sail_codec_info_by_magic_number_from_io':
+../Middlewares/sail/codec_info.c:156:50: error: 'const struct sail_string_node' has no member named 'value'
+  156 |             const char *magic = magic_number_node->value;
+      |                                                  ^~
+../Middlewares/sail/codec_info_private.c:56:39: warning: implicit declaration of function 'destroy_string_node_chain'; did you mean 'sail_destroy_string_node_chain'? [-Wimplicit-function-declaration]
+   56 |                         /* cleanup */ destroy_string_node_chain(string_node));
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:55:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   55 |     SAIL_TRY_OR_CLEANUP(split_into_string_node_chain(value, &string_node),
+      |     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:48,
+                 from ../Middlewares/sail/codec_info.c:32:
+../Middlewares/sail/codec_info.c: In function 'sail_codec_info_from_extension':
+../Middlewares/sail/codec_info.c:223:109: error: 'const struct sail_string_node' has no member named 'value'
+  223 |             SAIL_LOG_TRACE("Check against %s extension '%s'", codec_bundle->codec_info->name, extension_node->value);
+      |                                                                                                             ^~
+../../../../../../../Middlewares/sail/src/libsail-common/log.h:103:80: note: in definition of macro 'SAIL_LOG_TRACE'
+  103 | #define SAIL_LOG_TRACE(...) sail_log(SAIL_LOG_LEVEL_TRACE, __FILE__, __LINE__, __VA_ARGS__)
+      |                                                                                ^~~~~~~~~~~
+../Middlewares/sail/codec_info.c:225:38: error: 'const struct sail_string_node' has no member named 'value'
+  225 |             if (strcmp(extension_node->value, extension_copy) == 0) {
+      |                                      ^~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:48,
+                 from ../Middlewares/sail/codec_info.c:32:
+../Middlewares/sail/codec_info.c:231:97: error: 'const struct sail_string_node' has no member named 'value'
+  231 |                 SAIL_LOG_TRACE("Extension mismatch '%s' != '%s'", extension_copy, extension_node->value);
+      |                                                                                                 ^~
+../../../../../../../Middlewares/sail/src/libsail-common/log.h:103:80: note: in definition of macro 'SAIL_LOG_TRACE'
+  103 | #define SAIL_LOG_TRACE(...) sail_log(SAIL_LOG_LEVEL_TRACE, __FILE__, __LINE__, __VA_ARGS__)
+      |                                                                                ^~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:76:46: error: 'struct sail_string_node' has no member named 'value'
+   76 |             *(*target + i++) = converter(node->value);
+      |                                              ^~
+../Middlewares/sail/codec_info_private.c: In function 'image_property_from_string':
+../Middlewares/sail/codec_info_private.c:93:12: warning: implicit declaration of function 'sail_image_property_from_string'; did you mean 'image_property_from_string'? [-Wimplicit-function-declaration]
+   93 |     return sail_image_property_from_string(str);
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |            image_property_from_string
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_junior.c:30:
+../Middlewares/sail/sail_junior.c: In function 'sail_probe_file':
+../Middlewares/sail/sail_junior.c:68:14: warning: implicit declaration of function 'sail_alloc_read_options_from_features'; did you mean 'sail_alloc_load_options_from_features'? [-Wimplicit-function-declaration]
+   68 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:68:5: note: in expansion of macro 'SAIL_TRY'
+   68 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |     ^~~~~~~~
+../Middlewares/sail/sail_junior.c:68:73: error: 'const struct sail_codec_info' has no member named 'read_features'; did you mean 'load_features'?
+   68 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |                                                                         ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:68:5: note: in expansion of macro 'SAIL_TRY'
+   68 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |     ^~~~~~~~
+../Middlewares/sail/codec_info_private.c: In function 'parse_flags':
+../Middlewares/sail/codec_info_private.c:111:36: error: 'struct sail_string_node' has no member named 'value'
+  111 |         *features |= converter(node->value);
+      |                                    ^~
+../Middlewares/sail/sail_junior.c:72:39: warning: implicit declaration of function 'sail_destroy_read_options'; did you mean 'sail_destroy_load_options'? [-Wimplicit-function-declaration]
+   72 |                         /* cleanup */ sail_destroy_read_options(read_options_local));
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:71:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   71 |     SAIL_TRY_OR_CLEANUP(sail_alloc_io_read_file(path, &io),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:75:32: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   75 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |                                ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:75:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   75 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:76:46: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   76 |                         /* cleanup */ codec->v6->read_finish(&state, io),
+      |                                              ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:75:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   75 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c: In function 'inih_handler_sail_error':
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_advanced.c:31:
+../Middlewares/sail/sail_advanced.c: In function 'sail_probe_io':
+../Middlewares/sail/codec_info_private.c:169:32: error: 'struct sail_string_node' has no member named 'value'
+  169 |                 if (strlen(node->value) > SAIL_MAGIC_BUFFER_SIZE * 3 - 1) {
+      |                                ^~
+../Middlewares/sail/codec_info.c: In function 'sail_codec_info_from_mime_type':
+../Middlewares/sail/sail_junior.c:76:73: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   76 |                         /* cleanup */ codec->v6->read_finish(&state, io),
+      |                                                                         ^
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:75:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   75 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:1432:47: error: too few arguments to function '_fxe_file_read'
+ 1432 | #define fx_file_read                          _fxe_file_read
+      |                                               ^~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:94:18: note: in expansion of macro 'fx_file_read'
+   94 |     void *handle=fx_file_read(codec_info->path);
+      |                  ^~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:47:14: warning: implicit declaration of function 'sail_alloc_read_options_from_features'; did you mean 'sail_alloc_load_options_from_features'? [-Wimplicit-function-declaration]
+   47 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:47:5: note: in expansion of macro 'SAIL_TRY'
+   47 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |     ^~~~~~~~
+../Middlewares/sail/codec_info.c:264:109: error: 'const struct sail_string_node' has no member named 'value'
+  264 |             SAIL_LOG_TRACE("Check against %s MIME type '%s'", codec_bundle->codec_info->name, mime_type_node->value);
+      |                                                                                                             ^~
+../../../../../../../Middlewares/sail/src/libsail-common/log.h:103:80: note: in definition of macro 'SAIL_LOG_TRACE'
+  103 | #define SAIL_LOG_TRACE(...) sail_log(SAIL_LOG_LEVEL_TRACE, __FILE__, __LINE__, __VA_ARGS__)
+      |                                                                                ^~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:48,
+                 from ../Middlewares/sail/codec_info_private.c:30:
+../Middlewares/sail/codec_info_private.c:171:41: error: 'struct sail_string_node' has no member named 'value'
+  171 |                                     node->value, codec_info->name);
+      |                                         ^~
+../../../../../../../Middlewares/sail/src/libsail-common/log.h:78:80: note: in definition of macro 'SAIL_LOG_ERROR'
+   78 | #define SAIL_LOG_ERROR(...) sail_log(SAIL_LOG_LEVEL_ERROR, __FILE__, __LINE__, __VA_ARGS__)
+      |                                                                                ^~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:47:73: error: 'const struct sail_codec_info' has no member named 'read_features'; did you mean 'load_features'?
+   47 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |                                                                         ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:47:5: note: in expansion of macro 'SAIL_TRY'
+   47 |     SAIL_TRY(sail_alloc_read_options_from_features((*codec_info_local)->read_features, &read_options_local));
+      |     ^~~~~~~~
+../Middlewares/sail/sail_junior.c:84:32: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   84 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_seek_next_frame(state, io, &image_local),
+      |                                ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:84:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   84 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_seek_next_frame(state, io, &image_local),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:177:35: error: 'struct sail_string_node' has no member named 'value'
+  177 |                 sail_to_lower(node->value);
+      |                                   ^~
+../Middlewares/sail/sail_junior.c:85:46: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   85 |                         /* cleanup */ codec->v6->read_finish(&state, io),
+      |                                              ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:84:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   84 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_seek_next_frame(state, io, &image_local),
+      |     ^~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:1432:47: note: declared here
+ 1432 | #define fx_file_read                          _fxe_file_read
+      |                                               ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/ST/filex/common/inc/fx_api.h:1545:6: note: in expansion of macro 'fx_file_read'
+ 1545 | UINT fx_file_read(FX_FILE *file_ptr, VOID *buffer_ptr, ULONG request_size, ULONG *actual_size);
+      |      ^~~~~~~~~~~~
+In file included from c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:39,
+                 from ../Middlewares/sail/context_private.c:37:
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\sys\dirent.h:10:2: error: #error "<dirent.h> not supported"
+   10 | #error "<dirent.h> not supported"
+      |  ^~~~~
+../Middlewares/sail/sail_advanced.c:50:32: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   50 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |                                ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:50:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   50 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info.c:266:38: error: 'const struct sail_string_node' has no member named 'value'
+  266 |             if (strcmp(mime_type_node->value, mime_type_copy) == 0) {
+      |                                      ^~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_technical_diver.c:30:
+../Middlewares/sail/sail_technical_diver.c: In function 'sail_start_reading_io':
+../Middlewares/sail/codec_info_private.c:186:35: error: 'struct sail_string_node' has no member named 'value'
+  186 |                 sail_to_lower(node->value);
+      |                                   ^~
+../Middlewares/sail/sail_junior.c:85:73: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   85 |                         /* cleanup */ codec->v6->read_finish(&state, io),
+      |                                                                         ^
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:84:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   84 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_seek_next_frame(state, io, &image_local),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:136:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  136 |     SAIL_RESOLVE(codec->v6->read_init,            handle, sail_codec_read_init_v6,            codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+../Middlewares/sail/sail_advanced.c:51:46: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   51 |                         /* cleanup */ codec->v6->read_finish(&state, io),
+      |                                              ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:50:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   50 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:48,
+                 from ../Middlewares/sail/codec_info.c:32:
+../Middlewares/sail/codec_info.c:272:97: error: 'const struct sail_string_node' has no member named 'value'
+  272 |                 SAIL_LOG_TRACE("MIME type mismatch '%s' != '%s'", mime_type_copy, mime_type_node->value);
+      |                                                                                                 ^~
+../../../../../../../Middlewares/sail/src/libsail-common/log.h:103:80: note: in definition of macro 'SAIL_LOG_TRACE'
+  103 | #define SAIL_LOG_TRACE(...) sail_log(SAIL_LOG_LEVEL_TRACE, __FILE__, __LINE__, __VA_ARGS__)
+      |                                                                                ^~~~~~~~~~~
+In file included from ../Middlewares/sail/context_private.c:37:
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:48:12: error: unknown type name 'DIR'
+   48 | int  dirfd(DIR *);
+      |            ^~~
+../Middlewares/sail/sail_technical_diver.c:35:14: warning: implicit declaration of function 'sail_start_reading_io_with_options'; did you mean 'start_loading_io_with_options'? [-Wimplicit-function-declaration]
+   35 |     SAIL_TRY(sail_start_reading_io_with_options(io, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c:35:5: note: in expansion of macro 'SAIL_TRY'
+   35 |     SAIL_TRY(sail_start_reading_io_with_options(io, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/codec_info_private.c:195:35: error: 'struct sail_string_node' has no member named 'value'
+  195 |                 sail_to_lower(node->value);
+      |                                   ^~
+../Middlewares/sail/sail_junior.c:88:32: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   88 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_finish(&state, io),
+      |                                ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:88:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   88 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_finish(&state, io),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_private.c: In function 'destroy_hidden_state':
+../Middlewares/sail/sail_technical_diver.c: At top level:
+../Middlewares/sail/sail_technical_diver.c:42:62: warning: 'struct sail_read_options' declared inside parameter list will not be visible outside of this definition or declaration
+   42 |                                                 const struct sail_read_options *read_options, void **state) {
+      |                                                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:52:39: warning: implicit declaration of function 'sail_destroy_read_options'; did you mean 'sail_destroy_load_options'? [-Wimplicit-function-declaration]
+   52 |                                       sail_destroy_read_options(read_options_local));
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:50:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   50 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_private.c:106:5: warning: implicit declaration of function 'sail_destroy_write_options'; did you mean 'sail_destroy_save_options'? [-Wimplicit-function-declaration]
+  106 |     sail_destroy_write_options(state->write_options);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     sail_destroy_save_options
+../Middlewares/sail/codec.c:136:59: error: 'sail_codec_read_init_v6_t' undeclared (first use in this function); did you mean 'sail_codec_load_init_v7_t'?
+  136 |     SAIL_RESOLVE(codec->v6->read_init,            handle, sail_codec_read_init_v6,            codec_info->name);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:51:17: error: unknown type name 'DIR'
+   51 | int  fdclosedir(DIR *);
+      |                 ^~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/codec_info_private.c:30:
+../Middlewares/sail/codec_info_private.c:204:65: error: 'struct sail_codec_info' has no member named 'read_features'; did you mean 'load_features'?
+  204 |             SAIL_TRY_OR_CLEANUP(parse_flags(value, &codec_info->read_features->features, codec_feature_from_string),
+      |                                                                 ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:204:13: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  204 |             SAIL_TRY_OR_CLEANUP(parse_flags(value, &codec_info->read_features->features, codec_feature_from_string),
+      |             ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_junior.c: In function 'sail_load_image_from_file':
+../Middlewares/sail/sail_technical_diver.c:40:15: error: conflicting types for 'sail_start_reading_io_with_options'
+   40 | sail_status_t sail_start_reading_io_with_options(struct sail_io *io,
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:51:73: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   51 |                         /* cleanup */ codec->v6->read_finish(&state, io),
+      |                                                                         ^
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:50:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   50 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_init(io, read_options_local, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_private.c:106:39: error: 'struct hidden_state' has no member named 'write_options'; did you mean 'save_options'?
+  106 |     sail_destroy_write_options(state->write_options);
+      |                                       ^~~~~~~~~~~~~
+      |                                       save_options
+../Middlewares/sail/codec.c:136:59: note: each undeclared identifier is reported only once for each function it appears in
+  136 |     SAIL_RESOLVE(codec->v6->read_init,            handle, sail_codec_read_init_v6,            codec_info->name);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:53:1: error: unknown type name 'DIR'
+   53 | DIR *opendir(const char *);
+      | ^~~
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/codec_info.o] Error 1
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_technical_diver.c:30:
+../Middlewares/sail/sail_technical_diver.c:35:14: note: previous implicit declaration of 'sail_start_reading_io_with_options' was here
+   35 |     SAIL_TRY(sail_start_reading_io_with_options(io, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c:35:5: note: in expansion of macro 'SAIL_TRY'
+   35 |     SAIL_TRY(sail_start_reading_io_with_options(io, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/sail_junior.c:106:25: warning: implicit declaration of function 'sail_start_reading_file'; did you mean 'sail_start_loading_from_file'? [-Wimplicit-function-declaration]
+  106 |     SAIL_TRY_OR_CLEANUP(sail_start_reading_file(path, NULL /* codec info */, &state),
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:106:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  106 |     SAIL_TRY_OR_CLEANUP(sail_start_reading_file(path, NULL /* codec info */, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:212:65: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  212 |             SAIL_TRY_OR_CLEANUP(parse_flags(value, &codec_info->write_features->features, codec_feature_from_string),
+      |                                                                 ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:212:13: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  212 |             SAIL_TRY_OR_CLEANUP(parse_flags(value, &codec_info->write_features->features, codec_feature_from_string),
+      |             ^~~~~~~~~~~~~~~~~~~
+make: *** Waiting for unfinished jobs....
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:136:5: note: in expansion of macro 'SAIL_RESOLVE'
+  136 |     SAIL_RESOLVE(codec->v6->read_init,            handle, sail_codec_read_init_v6,            codec_info->name);
+      |     ^~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:58:32: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   58 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_seek_next_frame(state, io, &image_local),
+      |                                ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:58:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   58 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_seek_next_frame(state, io, &image_local),
+      |     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../../../../../../../Middlewares/sail/src/libsail/sail.h:32,
+                 from ../Middlewares/sail/sail_private.c:26:
+../Middlewares/sail/sail_private.c: In function 'stop_writing':
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:54:1: error: unknown type name 'DIR'
+   54 | DIR *fdopendir(int);
+      | ^~~
+../Middlewares/sail/sail_technical_diver_private.c:48:61: warning: 'struct sail_write_features' declared inside parameter list will not be visible outside of this definition or declaration
+   48 | static sail_status_t allowed_write_compression(const struct sail_write_features *write_features,
+      |                                                             ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c: In function 'sail_start_reading_io_with_options':
+../Middlewares/sail/sail_junior.c:107:39: warning: implicit declaration of function 'sail_stop_reading'; did you mean 'sail_stop_loading'? [-Wimplicit-function-declaration]
+  107 |                         /* cleanup */ sail_stop_reading(state));
+      |                                       ^~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:106:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  106 |     SAIL_TRY_OR_CLEANUP(sail_start_reading_file(path, NULL /* codec info */, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:216:78: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  216 |                                                         (int **)&codec_info->write_features->output_pixel_formats,
+      |                                                                              ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:215:13: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  215 |             SAIL_TRY_OR_CLEANUP(parse_serialized_ints(value,
+      |             ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:136:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  136 |     SAIL_RESOLVE(codec->v6->read_init,            handle, sail_codec_read_init_v6,            codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/sail_advanced.c:59:46: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   59 |                         /* cleanup */ codec->v6->read_finish(&state, io));
+      |                                              ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:58:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   58 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_seek_next_frame(state, io, &image_local),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_private.c:133:47: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  133 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_finish(&state_of_mind->state, state_of_mind->io),
+      |                                               ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_private.c:133:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  133 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_finish(&state_of_mind->state, state_of_mind->io),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c:44:14: warning: implicit declaration of function 'start_reading_io_with_options'; did you mean 'start_loading_io_with_options'? [-Wimplicit-function-declaration]
+   44 |     SAIL_TRY(start_reading_io_with_options(io, false, codec_info, read_options, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c:44:5: note: in expansion of macro 'SAIL_TRY'
+   44 |     SAIL_TRY(start_reading_io_with_options(io, false, codec_info, read_options, state));
+      |     ^~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c: In function 'allowed_write_compression':
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:56:11: error: unknown type name 'DIR'
+   56 |   readdir(DIR *);
+      |           ^~~
+../Middlewares/sail/codec_info_private.c:217:70: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  217 |                                                         &codec_info->write_features->output_pixel_formats_length,
+      |                                                                      ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:215:13: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  215 |             SAIL_TRY_OR_CLEANUP(parse_serialized_ints(value,
+      |             ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/threading.c:49:35: error: unknown type name 'sail_once_flag_t'; did you mean 'sail_source_image_t'?
+   49 | sail_status_t threading_call_once(sail_once_flag_t *once_flag, void (*callback)(void))
+      |                                   ^~~~~~~~~~~~~~~~
+      |                                   sail_source_image_t
+../Middlewares/sail/sail_junior.c:111:25: warning: implicit declaration of function 'sail_read_next_frame'; did you mean 'sail_load_next_frame'? [-Wimplicit-function-declaration]
+  111 |     SAIL_TRY_OR_CLEANUP(sail_read_next_frame(state, &image_local),
+      |                         ^~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:111:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  111 |     SAIL_TRY_OR_CLEANUP(sail_read_next_frame(state, &image_local),
+      |     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:48,
+                 from ../Middlewares/sail/codec.c:39:
+../Middlewares/sail/codec.c:114:88: warning: implicit declaration of function 'dlerror'; did you mean 'perror'? [-Wimplicit-function-declaration]
+  114 |         SAIL_LOG_ERROR("Failed to resolve '%s' in '%s': %s", symbol, codec_info->path, dlerror())
+      |                                                                                        ^~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/log.h:78:80: note: in definition of macro 'SAIL_LOG_ERROR'
+   78 | #define SAIL_LOG_ERROR(...) sail_log(SAIL_LOG_LEVEL_ERROR, __FILE__, __LINE__, __VA_ARGS__)
+      |                                                                                ^~~~~~~~~~~
+../Middlewares/sail/codec.c:128:13: note: in expansion of macro 'SAIL_RESOLVE_LOG_ERROR'
+  128 |             SAIL_RESOLVE_LOG_ERROR(full_symbol_name);                              \
+      |             ^~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:136:5: note: in expansion of macro 'SAIL_RESOLVE'
+  136 |     SAIL_RESOLVE(codec->v6->read_init,            handle, sail_codec_read_init_v6,            codec_info->name);
+      |     ^~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:60:32: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   60 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_finish(&state, io),
+      |                                ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:60:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   60 |     SAIL_TRY_OR_CLEANUP(codec->v6->read_finish(&state, io),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_private.c: At top level:
+../Middlewares/sail/sail_technical_diver_private.c:53:44: error: invalid use of undefined type 'const struct sail_write_features'
+   53 |     for (unsigned i = 0; i < write_features->compressions_length; i++) {
+      |                                            ^~
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:58:16: error: unknown type name 'DIR'
+   58 | int  readdir_r(DIR *__restrict, struct dirent *__restrict,
+      |                ^~~
+../Middlewares/sail/sail_technical_diver.c: In function 'sail_start_writing_io':
+../Middlewares/sail/codec_info_private.c:221:65: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  221 |             SAIL_TRY_OR_CLEANUP(parse_flags(value, &codec_info->write_features->properties, image_property_from_string),
+      |                                                                 ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:221:13: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  221 |             SAIL_TRY_OR_CLEANUP(parse_flags(value, &codec_info->write_features->properties, image_property_from_string),
+      |             ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/threading.c:72:36: error: unknown type name 'sail_mutex_t'; did you mean 'sail_context_t'?
+   72 | sail_status_t threading_init_mutex(sail_mutex_t *mutex)
+      |                                    ^~~~~~~~~~~~
+      |                                    sail_context_t
+../Middlewares/sail/sail_technical_diver.c:51:14: warning: implicit declaration of function 'sail_start_writing_io_with_options'; did you mean 'sail_start_reading_io_with_options'? [-Wimplicit-function-declaration]
+   51 |     SAIL_TRY(sail_start_writing_io_with_options(io, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c:51:5: note: in expansion of macro 'SAIL_TRY'
+   51 |     SAIL_TRY(sail_start_writing_io_with_options(io, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/sail_junior.c: In function 'sail_load_image_from_memory':
+../Middlewares/sail/sail_private.c:148:62: warning: 'struct sail_write_features' declared inside parameter list will not be visible outside of this definition or declaration
+  148 | sail_status_t allowed_write_output_pixel_format(const struct sail_write_features *write_features, enum SailPixelFormat pixel_format) {
+      |                                                              ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:54:27: error: invalid use of undefined type 'const struct sail_write_features'
+   54 |         if (write_features->compressions[i] == compression) {
+      |                           ^~
+../Middlewares/sail/sail_advanced.c: In function 'sail_start_reading_file':
+../Middlewares/sail/codec.c:137:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  137 |     SAIL_RESOLVE(codec->v6->read_seek_next_frame, handle, sail_codec_read_seek_next_frame_v6, codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+../Middlewares/sail/codec_info_private.c:225:78: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  225 |                                                         (int **)&codec_info->write_features->compressions,
+      |                                                                              ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:224:13: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  224 |             SAIL_TRY_OR_CLEANUP(parse_serialized_ints(value,
+      |             ^~~~~~~~~~~~~~~~~~~
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:61:17: error: unknown type name 'DIR'
+   61 | void  rewinddir(DIR *);
+      |                 ^~~
+../Middlewares/sail/sail_private.c:148:15: error: conflicting types for 'allowed_write_output_pixel_format'
+  148 | sail_status_t allowed_write_output_pixel_format(const struct sail_write_features *write_features, enum SailPixelFormat pixel_format) {
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:129:25: warning: implicit declaration of function 'sail_start_reading_memory'; did you mean 'sail_start_loading_from_memory'? [-Wimplicit-function-declaration]
+  129 |     SAIL_TRY_OR_CLEANUP(sail_start_reading_memory(buffer, buffer_length, NULL /* codec info */, &state),
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:129:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  129 |     SAIL_TRY_OR_CLEANUP(sail_start_reading_memory(buffer, buffer_length, NULL /* codec info */, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:85:14: warning: implicit declaration of function 'sail_start_reading_file_with_options'; did you mean 'sail_start_loading_from_file_with_options'? [-Wimplicit-function-declaration]
+   85 |     SAIL_TRY(sail_start_reading_file_with_options(path, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:85:5: note: in expansion of macro 'SAIL_TRY'
+   85 |     SAIL_TRY(sail_start_reading_file_with_options(path, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/threading.c:105:36: error: unknown type name 'sail_mutex_t'; did you mean 'sail_context_t'?
+  105 | sail_status_t threading_lock_mutex(sail_mutex_t *mutex)
+      |                                    ^~~~~~~~~~~~
+      |                                    sail_context_t
+../Middlewares/sail/sail_technical_diver.c: At top level:
+../Middlewares/sail/sail_technical_diver.c:58:62: warning: 'struct sail_write_options' declared inside parameter list will not be visible outside of this definition or declaration
+   58 |                                                 const struct sail_write_options *write_options, void **state) {
+      |                                                              ^~~~~~~~~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail/sail.h:52,
+                 from ../Middlewares/sail/sail_private.c:26:
+../../../../../../../Middlewares/sail/src/libsail/sail_private.h:72:27: note: previous declaration of 'allowed_write_output_pixel_format' was here
+   72 | SAIL_HIDDEN sail_status_t allowed_write_output_pixel_format(const struct sail_save_features *save_features, enum SailPixelFormat pixel_format);
+      |                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:226:70: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  226 |                                                         &codec_info->write_features->compressions_length,
+      |                                                                      ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:224:13: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  224 |             SAIL_TRY_OR_CLEANUP(parse_serialized_ints(value,
+      |             ^~~~~~~~~~~~~~~~~~~
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:72:15: error: unknown type name 'DIR'
+   72 | void  seekdir(DIR *, long);
+      |               ^~~
+../Middlewares/sail/codec.c:137:59: error: 'sail_codec_read_seek_next_frame_v6_t' undeclared (first use in this function); did you mean 'sail_codec_load_seek_next_frame_v7_t'?
+  137 |     SAIL_RESOLVE(codec->v6->read_seek_next_frame, handle, sail_codec_read_seek_next_frame_v6, codec_info->name);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+../Middlewares/sail/sail_technical_diver_private.c: At top level:
+../Middlewares/sail/sail_junior.c: In function 'sail_save_image_into_file':
+../Middlewares/sail/threading.c:122:38: error: unknown type name 'sail_mutex_t'; did you mean 'sail_context_t'?
+  122 | sail_status_t threading_unlock_mutex(sail_mutex_t *mutex)
+      |                                      ^~~~~~~~~~~~
+      |                                      sail_context_t
+../Middlewares/sail/sail_advanced.c: In function 'sail_start_reading_memory':
+../Middlewares/sail/sail_technical_diver.c:56:15: error: conflicting types for 'sail_start_writing_io_with_options'
+   56 | sail_status_t sail_start_writing_io_with_options(struct sail_io *io,
+      |               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_private.c: In function 'allowed_write_output_pixel_format':
+../Middlewares/sail/sail_technical_diver_private.c:68:57: warning: 'struct sail_read_options' declared inside parameter list will not be visible outside of this definition or declaration
+   68 |                                            const struct sail_read_options *read_options, void **state) {
+      |                                                         ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_private.c:152:44: error: invalid use of undefined type 'const struct sail_write_features'
+  152 |     for (unsigned i = 0; i < write_features->output_pixel_formats_length; i++) {
+      |                                            ^~
+../Middlewares/sail/sail_junior.c:148:25: warning: implicit declaration of function 'sail_start_writing_file'; did you mean 'sail_start_saving_into_file'? [-Wimplicit-function-declaration]
+  148 |     SAIL_TRY_OR_CLEANUP(sail_start_writing_file(path, NULL /* codec info */, &state),
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:148:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  148 |     SAIL_TRY_OR_CLEANUP(sail_start_writing_file(path, NULL /* codec info */, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_technical_diver.c:30:
+../Middlewares/sail/sail_technical_diver.c:51:14: note: previous implicit declaration of 'sail_start_writing_io_with_options' was here
+   51 |     SAIL_TRY(sail_start_writing_io_with_options(io, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c:51:5: note: in expansion of macro 'SAIL_TRY'
+   51 |     SAIL_TRY(sail_start_writing_io_with_options(io, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:137:5: note: in expansion of macro 'SAIL_RESOLVE'
+  137 |     SAIL_RESOLVE(codec->v6->read_seek_next_frame, handle, sail_codec_read_seek_next_frame_v6, codec_info->name);
+      |     ^~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:92:14: warning: implicit declaration of function 'sail_start_reading_memory_with_options'; did you mean 'sail_start_loading_from_memory_with_options'? [-Wimplicit-function-declaration]
+   92 |     SAIL_TRY(sail_start_reading_memory_with_options(buffer, buffer_length, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:92:5: note: in expansion of macro 'SAIL_TRY'
+   92 |     SAIL_TRY(sail_start_reading_memory_with_options(buffer, buffer_length, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/sail_private.c:153:27: error: invalid use of undefined type 'const struct sail_write_features'
+  153 |         if (write_features->output_pixel_formats[i] == pixel_format) {
+      |                           ^~
+../Middlewares/sail/codec_info_private.c:230:25: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  230 |             codec_info->write_features->default_compression = sail_compression_from_string(value);
+      |                         ^~~~~~~~~~~~~~
+      |                         save_features
+../Middlewares/sail/sail_technical_diver_private.c: In function 'start_reading_io_with_options':
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:73:15: error: unknown type name 'DIR'
+   73 | long  telldir(DIR *);
+      |               ^~~
+../Middlewares/sail/threading.c:139:39: error: unknown type name 'sail_mutex_t'; did you mean 'sail_context_t'?
+  139 | sail_status_t threading_destroy_mutex(sail_mutex_t *mutex)
+      |                                       ^~~~~~~~~~~~
+      |                                       sail_context_t
+../Middlewares/sail/sail_junior.c:149:25: warning: implicit declaration of function 'sail_stop_writing'; did you mean 'sail_stop_saving'? [-Wimplicit-function-declaration]
+  149 |                         sail_stop_writing(state));
+      |                         ^~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:148:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  148 |     SAIL_TRY_OR_CLEANUP(sail_start_writing_file(path, NULL /* codec info */, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c: In function 'sail_start_writing_io_with_options':
+../Middlewares/sail/codec.c:137:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  137 |     SAIL_RESOLVE(codec->v6->read_seek_next_frame, handle, sail_codec_read_seek_next_frame_v6, codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/sail_advanced.c: In function 'sail_read_next_frame':
+../Middlewares/sail/sail_technical_diver_private.c:82:20: error: 'struct hidden_state' has no member named 'write_options'; did you mean 'save_options'?
+   82 |     state_of_mind->write_options = NULL;
+      |                    ^~~~~~~~~~~~~
+      |                    save_options
+../Middlewares/sail/codec_info_private.c:232:25: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  232 |             codec_info->write_features->compression_level_min = atof(value);
+      |                         ^~~~~~~~~~~~~~
+      |                         save_features
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\dirent.h:76:15: error: unknown type name 'DIR'
+   76 | int  closedir(DIR *);
+      |               ^~~
+../Middlewares/sail/sail_technical_diver.c:60:14: warning: implicit declaration of function 'start_writing_io_with_options'; did you mean 'start_saving_io_with_options'? [-Wimplicit-function-declaration]
+   60 |     SAIL_TRY(start_writing_io_with_options(io, false, codec_info, write_options, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver.c:60:5: note: in expansion of macro 'SAIL_TRY'
+   60 |     SAIL_TRY(start_writing_io_with_options(io, false, codec_info, write_options, state));
+      |     ^~~~~~~~
+../Middlewares/sail/sail_advanced.c:109:36: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  109 |     SAIL_TRY(state_of_mind->codec->v6->read_seek_next_frame(state_of_mind->state, state_of_mind->io, &image_local));
+      |                                    ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:109:5: note: in expansion of macro 'SAIL_TRY'
+  109 |     SAIL_TRY(state_of_mind->codec->v6->read_seek_next_frame(state_of_mind->state, state_of_mind->io, &image_local));
+      |     ^~~~~~~~
+../Middlewares/sail/codec.c:138:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  138 |     SAIL_RESOLVE(codec->v6->read_frame,           handle, sail_codec_read_frame_v6,           codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+../Middlewares/sail/sail_junior.c: In function 'sail_save_image_into_memory':
+../Middlewares/sail/codec_info_private.c:234:25: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  234 |             codec_info->write_features->compression_level_max = atof(value);
+      |                         ^~~~~~~~~~~~~~
+      |                         save_features
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_technical_diver_private.c:30:
+../Middlewares/sail/sail_technical_diver_private.c:93:29: warning: implicit declaration of function 'sail_alloc_read_options_from_features'; did you mean 'sail_alloc_load_options_from_features'? [-Wimplicit-function-declaration]
+   93 |         SAIL_TRY_OR_CLEANUP(sail_alloc_read_options_from_features(state_of_mind->codec_info->read_features, &read_options_local),
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:93:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   93 |         SAIL_TRY_OR_CLEANUP(sail_alloc_read_options_from_features(state_of_mind->codec_info->read_features, &read_options_local),
+      |         ^~~~~~~~~~~~~~~~~~~
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/sail_private.o] Error 1
+../Middlewares/sail/sail_advanced.c:122:47: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  122 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_frame(state_of_mind->state, state_of_mind->io, image_local),
+      |                                               ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:122:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  122 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_frame(state_of_mind->state, state_of_mind->io, image_local),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_junior.c:166:25: warning: implicit declaration of function 'sail_start_writing_memory'; did you mean 'sail_start_saving_into_memory'? [-Wimplicit-function-declaration]
+  166 |     SAIL_TRY_OR_CLEANUP(sail_start_writing_memory(buffer, buffer_length, NULL /* codec info */, &state),
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:166:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  166 |     SAIL_TRY_OR_CLEANUP(sail_start_writing_memory(buffer, buffer_length, NULL /* codec info */, &state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:236:25: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  236 |             codec_info->write_features->compression_level_default = atof(value);
+      |                         ^~~~~~~~~~~~~~
+      |                         save_features
+../Middlewares/sail/codec.c:138:59: error: 'sail_codec_read_frame_v6_t' undeclared (first use in this function); did you mean 'sail_codec_load_frame_v7_t'?
+  138 |     SAIL_RESOLVE(codec->v6->read_frame,           handle, sail_codec_read_frame_v6,           codec_info->name);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:93:94: error: 'const struct sail_codec_info' has no member named 'read_features'; did you mean 'load_features'?
+   93 |         SAIL_TRY_OR_CLEANUP(sail_alloc_read_options_from_features(state_of_mind->codec_info->read_features, &read_options_local),
+      |                                                                                              ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:93:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   93 |         SAIL_TRY_OR_CLEANUP(sail_alloc_read_options_from_features(state_of_mind->codec_info->read_features, &read_options_local),
+      |         ^~~~~~~~~~~~~~~~~~~
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/threading.o] Error 1
+../Middlewares/sail/sail_advanced.c: In function 'sail_stop_reading':
+../Middlewares/sail/codec_info_private.c:238:25: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  238 |             codec_info->write_features->compression_level_step = atof(value);
+      |                         ^~~~~~~~~~~~~~
+      |                         save_features
+../Middlewares/sail/sail_junior.c:175:18: warning: implicit declaration of function 'sail_stop_writing_with_written'; did you mean 'sail_stop_saving_with_written'? [-Wimplicit-function-declaration]
+  175 |         SAIL_TRY(sail_stop_writing_with_written(state, written));
+      |                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_junior.c:175:9: note: in expansion of macro 'SAIL_TRY'
+  175 |         SAIL_TRY(sail_stop_writing_with_written(state, written));
+      |         ^~~~~~~~
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:138:5: note: in expansion of macro 'SAIL_RESOLVE'
+  138 |     SAIL_RESOLVE(codec->v6->read_frame,           handle, sail_codec_read_frame_v6,           codec_info->name);
+      |     ^~~~~~~~~~~~
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/sail_technical_diver.o] Error 1
+../Middlewares/sail/sail_advanced.c:145:47: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  145 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_finish(&state_of_mind->state, state_of_mind->io),
+      |                                               ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:145:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  145 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_finish(&state_of_mind->state, state_of_mind->io),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:95:51: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   95 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options_local, &state_of_mind->state),
+      |                                                   ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:95:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   95 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options_local, &state_of_mind->state),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c: In function 'check_codec_info':
+../Middlewares/sail/codec.c:138:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  138 |     SAIL_RESOLVE(codec->v6->read_frame,           handle, sail_codec_read_frame_v6,           codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/context_private.c:49:8: error: unknown type name 'sail_mutex_t'
+   49 | static sail_mutex_t global_context_guard_mutex;
+      |        ^~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:96:43: warning: implicit declaration of function 'sail_destroy_read_options'; did you mean 'sail_destroy_load_options'? [-Wimplicit-function-declaration]
+   96 |                             /* cleanup */ sail_destroy_read_options(read_options_local),
+      |                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:95:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   95 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options_local, &state_of_mind->state),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:289:68: error: 'const struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  289 |     const struct sail_write_features *write_features = codec_info->write_features;
+      |                                                                    ^~~~~~~~~~~~~~
+      |                                                                    save_features
+../Middlewares/sail/sail_advanced.c: In function 'sail_start_writing_file':
+../Middlewares/sail/codec_info_private.c:292:24: error: invalid use of undefined type 'const struct sail_write_features'
+  292 |     if ((write_features->features & SAIL_CODEC_FEATURE_STATIC ||
+      |                        ^~
+../Middlewares/sail/sail_technical_diver_private.c:97:65: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+   97 |                                           state_of_mind->codec->v6->read_finish(&state_of_mind->state, state_of_mind->io),
+      |                                                                 ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:95:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   95 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options_local, &state_of_mind->state),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c: In function 'initialize_global_context_guard_mutex':
+../Middlewares/sail/sail_advanced.c:155:14: warning: implicit declaration of function 'sail_start_writing_file_with_options'; did you mean 'sail_start_saving_into_file_with_options'? [-Wimplicit-function-declaration]
+  155 |     SAIL_TRY(sail_start_writing_file_with_options(path, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:155:5: note: in expansion of macro 'SAIL_TRY'
+  155 |     SAIL_TRY(sail_start_writing_file_with_options(path, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/codec.c:139:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  139 |     SAIL_RESOLVE(codec->v6->read_finish,          handle, sail_codec_read_finish_v6,          codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/sail_junior.o] Error 1
+../Middlewares/sail/codec_info_private.c:293:27: error: invalid use of undefined type 'const struct sail_write_features'
+  293 |             write_features->features & SAIL_CODEC_FEATURE_ANIMATED ||
+      |                           ^~
+../Middlewares/sail/context_private.c:74:24: warning: extra tokens at end of #ifdef directive
+   74 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      |                        ^~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:97:122: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   97 |                                           state_of_mind->codec->v6->read_finish(&state_of_mind->state, state_of_mind->io),
+      |                                                                                                                          ^
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:95:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+   95 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options_local, &state_of_mind->state),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c: In function 'sail_start_writing_memory':
+../Middlewares/sail/codec.c:139:59: error: 'sail_codec_read_finish_v6_t' undeclared (first use in this function); did you mean 'sail_codec_load_finish_v7_t'?
+  139 |     SAIL_RESOLVE(codec->v6->read_finish,          handle, sail_codec_read_finish_v6,          codec_info->name);
+      |                                                           ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+../Middlewares/sail/codec_info_private.c:294:27: error: invalid use of undefined type 'const struct sail_write_features'
+  294 |             write_features->features & SAIL_CODEC_FEATURE_MULTI_PAGED) &&
+      |                           ^~
+../Middlewares/sail/context_private.c:77:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   77 | }
+      | ^
+../Middlewares/sail/context_private.c: At top level:
+../Middlewares/sail/sail_advanced.c:162:14: warning: implicit declaration of function 'sail_start_writing_memory_with_options'; did you mean 'sail_start_saving_into_memory_with_options'? [-Wimplicit-function-declaration]
+  162 |     SAIL_TRY(sail_start_writing_memory_with_options(buffer, buffer_length, codec_info, NULL, state));
+      |              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:162:5: note: in expansion of macro 'SAIL_TRY'
+  162 |     SAIL_TRY(sail_start_writing_memory_with_options(buffer, buffer_length, codec_info, NULL, state));
+      |     ^~~~~~~~
+../Middlewares/sail/context_private.c:112:9: warning: "/*" within comment [-Wcomment]
+  112 |         /* "...\bin\sail.dll" -> "...\bin". */
+      |          
+../Middlewares/sail/codec_info_private.c:295:28: error: invalid use of undefined type 'const struct sail_write_features'
+  295 |             (write_features->output_pixel_formats == NULL || write_features->output_pixel_formats_length == 0)) {
+      |                            ^~
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:139:5: note: in expansion of macro 'SAIL_RESOLVE'
+  139 |     SAIL_RESOLVE(codec->v6->read_finish,          handle, sail_codec_read_finish_v6,          codec_info->name);
+      |     ^~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:101:51: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  101 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options, &state_of_mind->state),
+      |                                                   ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:101:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  101 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options, &state_of_mind->state),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:295:76: error: invalid use of undefined type 'const struct sail_write_features'
+  295 |             (write_features->output_pixel_formats == NULL || write_features->output_pixel_formats_length == 0)) {
+      |                                                                            ^~
+../Middlewares/sail/context_private.c:887: error: unterminated #ifdef
+  887 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_advanced.c: In function 'sail_write_next_frame':
+../Middlewares/sail/codec.c:139:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  139 |     SAIL_RESOLVE(codec->v6->read_finish,          handle, sail_codec_read_finish_v6,          codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:102:65: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  102 |                             /* cleanup */ state_of_mind->codec->v6->read_finish(&state_of_mind->state, state_of_mind->io),
+      |                                                                 ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:101:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  101 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options, &state_of_mind->state),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:880: error: unterminated #ifdef
+  880 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec_info_private.c:301:23: error: invalid use of undefined type 'const struct sail_write_features'
+  301 |     if (write_features->features != 0 && (write_features->compressions == NULL || write_features->compressions_length == 0)) {
+      |                       ^~
+../Middlewares/sail/sail_advanced.c:180:75: error: 'const struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  180 |     SAIL_TRY(allowed_write_output_pixel_format(state_of_mind->codec_info->write_features,
+      |                                                                           ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:180:5: note: in expansion of macro 'SAIL_TRY'
+  180 |     SAIL_TRY(allowed_write_output_pixel_format(state_of_mind->codec_info->write_features,
+      |     ^~~~~~~~
+../Middlewares/sail/codec.c:141:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  141 |     SAIL_RESOLVE(codec->v6->write_init,            handle, sail_codec_write_init_v6,            codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+../Middlewares/sail/context_private.c:871: error: unterminated #ifdef
+  871 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:102:122: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  102 |                             /* cleanup */ state_of_mind->codec->v6->read_finish(&state_of_mind->state, state_of_mind->io),
+      |                                                                                                                          ^
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:101:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  101 |         SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->read_init(state_of_mind->io, read_options, &state_of_mind->state),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:301:57: error: invalid use of undefined type 'const struct sail_write_features'
+  301 |     if (write_features->features != 0 && (write_features->compressions == NULL || write_features->compressions_length == 0)) {
+      |                                                         ^~
+../Middlewares/sail/sail_advanced.c:186:36: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  186 |     SAIL_TRY(state_of_mind->codec->v6->write_seek_next_frame(state_of_mind->state, state_of_mind->io, image));
+      |                                    ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:186:5: note: in expansion of macro 'SAIL_TRY'
+  186 |     SAIL_TRY(state_of_mind->codec->v6->write_seek_next_frame(state_of_mind->state, state_of_mind->io, image));
+      |     ^~~~~~~~
+../Middlewares/sail/codec.c:141:60: error: 'sail_codec_write_init_v6_t' undeclared (first use in this function); did you mean 'sail_codec_save_init_v7_t'?
+  141 |     SAIL_RESOLVE(codec->v6->write_init,            handle, sail_codec_write_init_v6,            codec_info->name);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+../Middlewares/sail/context_private.c:848: error: unterminated #ifdef
+  848 |         #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c: At top level:
+../Middlewares/sail/codec_info_private.c:301:97: error: invalid use of undefined type 'const struct sail_write_features'
+  301 |     if (write_features->features != 0 && (write_features->compressions == NULL || write_features->compressions_length == 0)) {
+      |                                                                                                 ^~
+../Middlewares/sail/sail_technical_diver_private.c:113:57: warning: 'struct sail_write_options' declared inside parameter list will not be visible outside of this definition or declaration
+  113 |                                            const struct sail_write_options *write_options, void **state) {
+      |                                                         ^~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:838: error: unterminated #ifdef
+  838 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:141:5: note: in expansion of macro 'SAIL_RESOLVE'
+  141 |     SAIL_RESOLVE(codec->v6->write_init,            handle, sail_codec_write_init_v6,            codec_info->name);
+      |     ^~~~~~~~~~~~
+../Middlewares/sail/sail_advanced.c:187:36: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  187 |     SAIL_TRY(state_of_mind->codec->v6->write_frame(state_of_mind->state, state_of_mind->io, image));
+      |                                    ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:187:5: note: in expansion of macro 'SAIL_TRY'
+  187 |     SAIL_TRY(state_of_mind->codec->v6->write_frame(state_of_mind->state, state_of_mind->io, image));
+      |     ^~~~~~~~
+../Middlewares/sail/codec_info_private.c:307:23: error: invalid use of undefined type 'const struct sail_write_features'
+  307 |     if (write_features->compressions_length > 1 && (write_features->compression_level_min != 0 || write_features->compression_level_max != 0)) {
+      |                       ^~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_technical_diver_private.c:30:
+../Middlewares/sail/sail_technical_diver_private.c: In function 'start_writing_io_with_options':
+../Middlewares/sail/context_private.c:824: error: unterminated #ifdef
+  824 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec.c:141:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  141 |     SAIL_RESOLVE(codec->v6->write_init,            handle, sail_codec_write_init_v6,            codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/codec_info_private.c:307:67: error: invalid use of undefined type 'const struct sail_write_features'
+  307 |     if (write_features->compressions_length > 1 && (write_features->compression_level_min != 0 || write_features->compression_level_max != 0)) {
+      |                                                                   ^~
+../Middlewares/sail/sail_advanced.c: In function 'sail_stop_writing':
+../Middlewares/sail/sail_technical_diver_private.c:125:67: error: 'const struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  125 |         SAIL_TRY_OR_CLEANUP(allowed_write_compression(codec_info->write_features, write_options->compression),
+      |                                                                   ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:125:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  125 |         SAIL_TRY_OR_CLEANUP(allowed_write_compression(codec_info->write_features, write_options->compression),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:810: error: unterminated #ifdef
+  810 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec_info_private.c:307:113: error: invalid use of undefined type 'const struct sail_write_features'
+  307 |     if (write_features->compressions_length > 1 && (write_features->compression_level_min != 0 || write_features->compression_level_max != 0)) {
+      |                                                                                                                 ^~
+../Middlewares/sail/sail_advanced.c:194:14: warning: implicit declaration of function 'stop_writing'; did you mean 'stop_saving'? [-Wimplicit-function-declaration]
+  194 |     SAIL_TRY(stop_writing(state, NULL));
+      |              ^~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_advanced.c:194:5: note: in expansion of macro 'SAIL_TRY'
+  194 |     SAIL_TRY(stop_writing(state, NULL));
+      |     ^~~~~~~~
+../Middlewares/sail/codec.c:142:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  142 |     SAIL_RESOLVE(codec->v6->write_seek_next_frame, handle, sail_codec_write_seek_next_frame_v6, codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+../Middlewares/sail/context_private.c:803: error: unterminated #ifdef
+  803 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:125:96: error: invalid use of undefined type 'const struct sail_write_options'
+  125 |         SAIL_TRY_OR_CLEANUP(allowed_write_compression(codec_info->write_features, write_options->compression),
+      |                                                                                                ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:125:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  125 |         SAIL_TRY_OR_CLEANUP(allowed_write_compression(codec_info->write_features, write_options->compression),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:312:44: error: invalid use of undefined type 'const struct sail_write_features'
+  312 |     for (unsigned i = 0; i < write_features->compressions_length; i++) {
+      |                                            ^~
+../Middlewares/sail/codec.c:142:60: error: 'sail_codec_write_seek_next_frame_v6_t' undeclared (first use in this function); did you mean 'sail_codec_save_seek_next_frame_v7_t'?
+  142 |     SAIL_RESOLVE(codec->v6->write_seek_next_frame, handle, sail_codec_write_seek_next_frame_v6, codec_info->name);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+../Middlewares/sail/context_private.c:796: error: unterminated #ifdef
+  796 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec_info_private.c:313:27: error: invalid use of undefined type 'const struct sail_write_features'
+  313 |         if (write_features->compressions[i] == SAIL_COMPRESSION_UNKNOWN) {
+      |                           ^~
+../Middlewares/sail/sail_technical_diver_private.c:136:20: error: 'struct hidden_state' has no member named 'write_options'; did you mean 'save_options'?
+  136 |     state_of_mind->write_options = NULL;
+      |                    ^~~~~~~~~~~~~
+      |                    save_options
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:142:5: note: in expansion of macro 'SAIL_RESOLVE'
+  142 |     SAIL_RESOLVE(codec->v6->write_seek_next_frame, handle, sail_codec_write_seek_next_frame_v6, codec_info->name);
+      |     ^~~~~~~~~~~~
+../Middlewares/sail/context_private.c:779: error: unterminated #ifdef
+  779 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec_info_private.c:319:23: error: invalid use of undefined type 'const struct sail_write_features'
+  319 |     if (write_features->default_compression == SAIL_COMPRESSION_UNKNOWN) {
+      |                       ^~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/sail_technical_diver_private.c:30:
+../Middlewares/sail/sail_technical_diver_private.c:145:29: warning: implicit declaration of function 'sail_alloc_write_options_from_features'; did you mean 'sail_alloc_save_options_from_features'? [-Wimplicit-function-declaration]
+  145 |         SAIL_TRY_OR_CLEANUP(sail_alloc_write_options_from_features(state_of_mind->codec_info->write_features, &state_of_mind->write_options),
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:145:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  145 |         SAIL_TRY_OR_CLEANUP(sail_alloc_write_options_from_features(state_of_mind->codec_info->write_features, &state_of_mind->write_options),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:745: error: unterminated #ifdef
+  745 |         #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec.c:142:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  142 |     SAIL_RESOLVE(codec->v6->write_seek_next_frame, handle, sail_codec_write_seek_next_frame_v6, codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/codec_info_private.c: In function 'alloc_codec_info':
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/sail_advanced.o] Error 1
+../Middlewares/sail/context_private.c:610: error: unterminated #else
+  610 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:145:95: error: 'const struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  145 |         SAIL_TRY_OR_CLEANUP(sail_alloc_write_options_from_features(state_of_mind->codec_info->write_features, &state_of_mind->write_options),
+      |                                                                                               ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:145:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  145 |         SAIL_TRY_OR_CLEANUP(sail_alloc_write_options_from_features(state_of_mind->codec_info->write_features, &state_of_mind->write_options),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:343:20: error: 'struct sail_codec_info' has no member named 'read_features'; did you mean 'load_features'?
+  343 |     (*codec_info)->read_features     = NULL;
+      |                    ^~~~~~~~~~~~~
+      |                    load_features
+../Middlewares/sail/context_private.c:561: error: unterminated #ifdef
+  561 | #ifdef SAIL_COMBINE_CODECS
+      | 
+../Middlewares/sail/codec.c:143:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  143 |     SAIL_RESOLVE(codec->v6->write_frame,           handle, sail_codec_write_frame_v6,           codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+../Middlewares/sail/context_private.c:449: error: unterminated #ifdef
+  449 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:145:127: error: 'struct hidden_state' has no member named 'write_options'; did you mean 'save_options'?
+  145 |         SAIL_TRY_OR_CLEANUP(sail_alloc_write_options_from_features(state_of_mind->codec_info->write_features, &state_of_mind->write_options),
+      |                                                                                                                               ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:145:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  145 |         SAIL_TRY_OR_CLEANUP(sail_alloc_write_options_from_features(state_of_mind->codec_info->write_features, &state_of_mind->write_options),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:344:20: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  344 |     (*codec_info)->write_features    = NULL;
+      |                    ^~~~~~~~~~~~~~
+      |                    save_features
+../Middlewares/sail/context_private.c:394: error: unterminated #ifdef
+  394 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec.c:143:60: error: 'sail_codec_write_frame_v6_t' undeclared (first use in this function); did you mean 'sail_codec_save_frame_v7_t'?
+  143 |     SAIL_RESOLVE(codec->v6->write_frame,           handle, sail_codec_write_frame_v6,           codec_info->name);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+../Middlewares/sail/context_private.c:383: error: unterminated #ifdef
+  383 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/context_private.c:343: error: unterminated #else
+  343 |         #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:148:29: warning: implicit declaration of function 'sail_copy_write_options'; did you mean 'sail_copy_save_options'? [-Wimplicit-function-declaration]
+  148 |         SAIL_TRY_OR_CLEANUP(sail_copy_write_options(write_options, &state_of_mind->write_options),
+      |                             ^~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:148:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  148 |         SAIL_TRY_OR_CLEANUP(sail_copy_write_options(write_options, &state_of_mind->write_options),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:336: error: unterminated #ifdef
+  336 | #ifdef SAIL_WIN32
+      | 
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:143:5: note: in expansion of macro 'SAIL_RESOLVE'
+  143 |     SAIL_RESOLVE(codec->v6->write_frame,           handle, sail_codec_write_frame_v6,           codec_info->name);
+      |     ^~~~~~~~~~~~
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/codec_info_private.c:30:
+../Middlewares/sail/codec_info_private.c: In function 'codec_read_info_from_input':
+../Middlewares/sail/context_private.c:332: error: unterminated #if
+  332 | #if !defined SAIL_COMBINE_CODECS || defined SAIL_THIRD_PARTY_CODECS_PATH
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:148:84: error: 'struct hidden_state' has no member named 'write_options'; did you mean 'save_options'?
+  148 |         SAIL_TRY_OR_CLEANUP(sail_copy_write_options(write_options, &state_of_mind->write_options),
+      |                                                                                    ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:148:9: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  148 |         SAIL_TRY_OR_CLEANUP(sail_copy_write_options(write_options, &state_of_mind->write_options),
+      |         ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:329: error: unterminated #ifdef
+  329 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec.c:143:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  143 |     SAIL_RESOLVE(codec->v6->write_frame,           handle, sail_codec_write_frame_v6,           codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/codec_info_private.c:353:25: warning: implicit declaration of function 'sail_alloc_read_features'; did you mean 'sail_alloc_load_features'? [-Wimplicit-function-declaration]
+  353 |     SAIL_TRY_OR_CLEANUP(sail_alloc_read_features(&codec_info_local->read_features),
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:353:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  353 |     SAIL_TRY_OR_CLEANUP(sail_alloc_read_features(&codec_info_local->read_features),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:317: error: unterminated #ifdef
+  317 |         #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:152:47: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  152 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_init(state_of_mind->io, state_of_mind->write_options, &state_of_mind->state),
+      |                                               ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:152:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  152 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_init(state_of_mind->io, state_of_mind->write_options, &state_of_mind->state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:144:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  144 |     SAIL_RESOLVE(codec->v6->write_finish,          handle, sail_codec_write_finish_v6,          codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:125:9: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |         ^~~~~~
+../Middlewares/sail/context_private.c:307: error: unterminated #ifdef
+  307 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec_info_private.c:353:69: error: 'struct sail_codec_info' has no member named 'read_features'; did you mean 'load_features'?
+  353 |     SAIL_TRY_OR_CLEANUP(sail_alloc_read_features(&codec_info_local->read_features),
+      |                                                                     ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:353:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  353 |     SAIL_TRY_OR_CLEANUP(sail_alloc_read_features(&codec_info_local->read_features),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:152:96: error: 'struct hidden_state' has no member named 'write_options'; did you mean 'save_options'?
+  152 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_init(state_of_mind->io, state_of_mind->write_options, &state_of_mind->state),
+      |                                                                                                ^~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:152:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  152 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_init(state_of_mind->io, state_of_mind->write_options, &state_of_mind->state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:265: error: unterminated #ifdef
+  265 |         #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec.c:144:60: error: 'sail_codec_write_finish_v6_t' undeclared (first use in this function); did you mean 'sail_codec_save_finish_v7_t'?
+  144 |     SAIL_RESOLVE(codec->v6->write_finish,          handle, sail_codec_write_finish_v6,          codec_info->name);
+      |                                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:125:19: note: in definition of macro 'SAIL_RESOLVE'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                   ^~~~~~
+../Middlewares/sail/context_private.c:246: error: unterminated #ifdef
+  246 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/sail_technical_diver_private.c:153:61: error: 'const struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  153 |                         /* cleanup */ state_of_mind->codec->v6->write_finish(&state_of_mind->state, state_of_mind->io),
+      |                                                             ^~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:152:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  152 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_init(state_of_mind->io, state_of_mind->write_options, &state_of_mind->state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:355:25: warning: implicit declaration of function 'sail_alloc_write_features'; did you mean 'sail_alloc_save_features'? [-Wimplicit-function-declaration]
+  355 |     SAIL_TRY_OR_CLEANUP(sail_alloc_write_features(&codec_info_local->write_features),
+      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:355:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  355 |     SAIL_TRY_OR_CLEANUP(sail_alloc_write_features(&codec_info_local->write_features),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:226: error: unterminated #ifdef
+  226 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec.c:112:31: error: expected ';' before 'dlsym'
+  112 |     #define SAIL_RESOLVE_FUNC dlsym
+      |                               ^~~~~
+../Middlewares/sail/codec.c:125:30: note: in expansion of macro 'SAIL_RESOLVE_FUNC'
+  125 |         target = (symbol##_t)SAIL_RESOLVE_FUNC(handle, full_symbol_name);          \
+      |                              ^~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:144:5: note: in expansion of macro 'SAIL_RESOLVE'
+  144 |     SAIL_RESOLVE(codec->v6->write_finish,          handle, sail_codec_write_finish_v6,          codec_info->name);
+      |     ^~~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:153:119: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+  153 |                         /* cleanup */ state_of_mind->codec->v6->write_finish(&state_of_mind->state, state_of_mind->io),
+      |                                                                                                                       ^
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:144:9: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  144 |         __VA_ARGS__;                                     \
+      |         ^~~~~~~~~~~
+../Middlewares/sail/sail_technical_diver_private.c:152:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  152 |     SAIL_TRY_OR_CLEANUP(state_of_mind->codec->v6->write_init(state_of_mind->io, state_of_mind->write_options, &state_of_mind->state),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:220: error: unterminated #ifdef
+  220 |         #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/codec_info_private.c:355:70: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  355 |     SAIL_TRY_OR_CLEANUP(sail_alloc_write_features(&codec_info_local->write_features),
+      |                                                                      ^~~~~~~~~~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec_info_private.c:355:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  355 |     SAIL_TRY_OR_CLEANUP(sail_alloc_write_features(&codec_info_local->write_features),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:144:25: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  144 |     SAIL_RESOLVE(codec->v6->write_finish,          handle, sail_codec_write_finish_v6,          codec_info->name);
+      |                         ^~
+../Middlewares/sail/codec.c:127:13: note: in definition of macro 'SAIL_RESOLVE'
+  127 |         if (target == NULL) {                                                      \
+      |             ^~~~~~
+../Middlewares/sail/context_private.c:214: error: unterminated #ifdef
+  214 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/context_private.c:200: error: unterminated #ifdef
+  200 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/context_private.c:148: error: unterminated #ifdef
+  148 | #ifdef SAIL_THIRD_PARTY_CODECS_PATH
+      | 
+../Middlewares/sail/context_private.c:97: error: unterminated #ifdef
+   97 |     #ifdef SAIL_AZRTOS return SAIL_OK; #endif
+      | 
+../Middlewares/sail/context_private.c:79: error: unterminated #ifdef
+   79 | #ifdef SAIL_WIN32
+      | 
+../Middlewares/sail/context_private.c:73: error: unterminated #ifdef
+   73 | #ifdef SAIL_AZRTOS
+      | 
+../Middlewares/sail/codec_info_private.c:372:41: error: 'SAIL_CODEC_LAYOUT_V6' undeclared (first use in this function); did you mean 'SAIL_CODEC_LAYOUT_V7'?
+  372 |         if (codec_info_local->layout != SAIL_CODEC_LAYOUT_V6) {
+      |                                         ^~~~~~~~~~~~~~~~~~~~
+      |                                         SAIL_CODEC_LAYOUT_V7
+../Middlewares/sail/codec_info_private.c:372:41: note: each undeclared identifier is reported only once for each function it appears in
+../Middlewares/sail/context_private.c:64:22: warning: 'initialize_global_context_guard_mutex' defined but not used [-Wunused-function]
+   64 | static sail_status_t initialize_global_context_guard_mutex(void) {
+      |                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c: In function 'alloc_and_load_codec':
+../Middlewares/sail/context_private.c:54:13: warning: 'initialize_global_context_guard_mutex_callback' defined but not used [-Wunused-function]
+   54 | static void initialize_global_context_guard_mutex_callback(void) {
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:51:13: warning: 'global_context_guard_mutex_initialized' defined but not used [-Wunused-variable]
+   51 | static bool global_context_guard_mutex_initialized = false;
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec.c:158:31: error: 'SAIL_CODEC_LAYOUT_V6' undeclared (first use in this function); did you mean 'SAIL_CODEC_LAYOUT_V7'?
+  158 |     if (codec_info->layout != SAIL_CODEC_LAYOUT_V6) {
+      |                               ^~~~~~~~~~~~~~~~~~~~
+      |                               SAIL_CODEC_LAYOUT_V7
+../Middlewares/sail/codec_info_private.c: In function 'destroy_codec_info':
+../Middlewares/sail/context_private.c:49:21: warning: 'global_context_guard_mutex' defined but not used [-Wunused-variable]
+   49 | static sail_mutex_t global_context_guard_mutex;
+      |                     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:416:5: warning: implicit declaration of function 'sail_destroy_read_features'; did you mean 'sail_destroy_load_features'? [-Wimplicit-function-declaration]
+  416 |     sail_destroy_read_features(codec_info->read_features);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     sail_destroy_load_features
+In file included from ../../../../../../../Middlewares/sail/src/libsail-common/common.h:30,
+                 from ../../../../../../../Middlewares/sail/src/libsail-common/sail-common.h:34,
+                 from ../Middlewares/sail/codec.c:39:
+../Middlewares/sail/codec.c:189:44: error: invalid application of 'sizeof' to incomplete type 'struct sail_codec_layout_v6'
+  189 |     SAIL_TRY_OR_CLEANUP(sail_malloc(sizeof(struct sail_codec_layout_v6), &ptr),
+      |                                            ^~~~~~
+../../../../../../../Middlewares/sail/src/libsail-common/error.h:141:47: note: in definition of macro 'SAIL_TRY_OR_EXECUTE'
+  141 |     const sail_status_t __sail_error_result = sail_func; \
+      |                                               ^~~~~~~~~
+../Middlewares/sail/codec.c:189:5: note: in expansion of macro 'SAIL_TRY_OR_CLEANUP'
+  189 |     SAIL_TRY_OR_CLEANUP(sail_malloc(sizeof(struct sail_codec_layout_v6), &ptr),
+      |     ^~~~~~~~~~~~~~~~~~~
+../Middlewares/sail/context_private.c:47:29: warning: 'global_context' defined but not used [-Wunused-variable]
+   47 | static struct sail_context *global_context = NULL;
+      |                             ^~~~~~~~~~~~~~
+../Middlewares/sail/codec_info_private.c:416:44: error: 'struct sail_codec_info' has no member named 'read_features'; did you mean 'load_features'?
+  416 |     sail_destroy_read_features(codec_info->read_features);
+      |                                            ^~~~~~~~~~~~~
+      |                                            load_features
+../Middlewares/sail/codec.c:191:18: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  191 |     codec_local->v6 = ptr;
+      |                  ^~
+      |                  v7
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/sail_technical_diver_private.o] Error 1
+../Middlewares/sail/codec.c: In function 'destroy_codec':
+../Middlewares/sail/codec.c:221:9: warning: implicit declaration of function 'dlclose'; did you mean 'pclose'? [-Wimplicit-function-declaration]
+  221 |         dlclose(codec->handle);
+      |         ^~~~~~~
+      |         pclose
+../Middlewares/sail/codec_info_private.c:417:5: warning: implicit declaration of function 'sail_destroy_write_features'; did you mean 'sail_destroy_save_features'? [-Wimplicit-function-declaration]
+  417 |     sail_destroy_write_features(codec_info->write_features);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |     sail_destroy_save_features
+../Middlewares/sail/codec.c:225:22: error: 'struct sail_codec' has no member named 'v6'; did you mean 'v7'?
+  225 |     sail_free(codec->v6);
+      |                      ^~
+      |                      v7
+../Middlewares/sail/codec_info_private.c:417:45: error: 'struct sail_codec_info' has no member named 'write_features'; did you mean 'save_features'?
+  417 |     sail_destroy_write_features(codec_info->write_features);
+      |                                             ^~~~~~~~~~~~~~
+      |                                             save_features
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/context_private.o] Error 1
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/codec.o] Error 1
+make: *** [Middlewares/sail/subdir.mk:73: Middlewares/sail/codec_info_private.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+13:39:46 Build Failed. 190 errors, 57 warnings. (took 1s.400ms)
+

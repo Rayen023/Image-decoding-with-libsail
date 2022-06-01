@@ -1,0 +1,5 @@
+[ProjectFiles]
+HeaderPath=../../../../../../Drivers/BSP/STM32469I-Discovery
+[Groups]
+Drivers/BSP/STM32469I-DISCO=../../../../../../Drivers/BSP/STM32469I-Discovery/stm32469i_discovery.c;
+Doc=../README.md;

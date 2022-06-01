@@ -1,0 +1,49 @@
+diff --git a/Middlewares/sail/src/libsail/io_file.c b/Middlewares/sail/src/libsail/io_file.c
+index 8f6ca9e..e0c9195 100644
+--- a/Middlewares/sail/src/libsail/io_file.c
++++ b/Middlewares/sail/src/libsail/io_file.c
+@@ -50,7 +50,7 @@ static sail_status_t io_file_tolerant_read(void *stream, void *buf, size_t size_
+ 
+     FILE *fptr = (FILE *)stream;
+ 
+-    *read_size = fx_file_read(fptr,buf, 1, size_to_read);
++    *read_size = fread(buf, 1, size_to_read, fptr);
+ 
+     return SAIL_OK;
+ }
+@@ -76,7 +76,7 @@ static sail_status_t io_file_tolerant_write(void *stream, const void *buf, size_
+ 
+     FILE *fptr = (FILE *)stream;
+ 
+-    *written_size = fx_file_write(fptr,buf, size_to_write);
++    *written_size = fwrite(buf, 1, size_to_write, fptr);
+ 
+     return SAIL_OK;
+ }
+@@ -100,7 +100,7 @@ static sail_status_t io_file_seek(void *stream, long offset, int whence) {
+ 
+     FILE *fptr = (FILE *)stream;
+ 
+-    if (fx_file_seek(fptr, offset) != 0) {
++    if (fseek(fptr, offset, whence) != 0) {
+         sail_print_errno("Failed to seek: %s");
+         SAIL_LOG_AND_RETURN(SAIL_ERROR_SEEK_IO);
+     }
+@@ -133,7 +133,7 @@ static sail_status_t io_file_flush(void *stream) {
+ 
+     FILE *fptr = (FILE *)stream;
+ 
+-    if (fx_media_flush(fptr) != 0) {
++    if (fflush(fptr) != 0) {
+         sail_print_errno("Failed to flush file buffers: %s");
+         SAIL_LOG_AND_RETURN(SAIL_ERROR_FLUSH_IO);
+     }
+@@ -147,7 +147,7 @@ static sail_status_t io_file_close(void *stream) {
+ 
+     FILE *fptr = (FILE *)stream;
+ 
+-    if (fx_file_close(fptr) != 0) {
++    if (fclose(fptr) != 0) {
+         sail_print_errno("Failed to close the file: %s");
+         SAIL_LOG_AND_RETURN(SAIL_ERROR_CLOSE_IO);
+     }
